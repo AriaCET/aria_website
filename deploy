@@ -1,7 +1,8 @@
 #!/bin/bash
 set -e
 markdoc build
-mv .html/* ../aria_heroku
+rm -rf ../aria_heroku/media
+mv -f .html/* ../aria_heroku
 cd ../aria_heroku
 git commit -a -m "$(date)"
 git push heroku master
