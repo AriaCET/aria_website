@@ -1,1 +1,5 @@
-{}
+wiki-name: ARIA
+## ...other settings...
+markdown:
+  extensions:
+    - codehilite # the important bit
