@@ -23,4 +23,4 @@ It should be powerfull enough to handle the amount of traffic the system will ge
 The transmitter end, install [Aria client](/client.html) onto this.
 
 ### Nodes
-Setup a node and configure it in the web interface.
+Setup a node and configure it in the web interface (Or use a linphone deamon).
