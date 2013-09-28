@@ -5,7 +5,7 @@ A client for ARIA server, written in Python-Qt, it implements a sip softphone us
 ## Setting up the system
 
     #!/bin/bash
-    $ git clone git://github.com/abilng/aria_client.git
+    $ git clone git://github.com/AriaCET/aria-client.git
     $ ./install
     $ aria-client
 
