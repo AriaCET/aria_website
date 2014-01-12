@@ -4,12 +4,12 @@ Web interface to control asterisk. Nodes can be authenticated and groups can be 
 
 ## Installing
 
-The server is installed as a systemd service.
+The server can be installed as a systemd/init.d/upstart service.
 
     #!/bin/bash
     $ git clone git@github.com:AriaCET/aria-server.git
     $ git checkout release
-    $ ./install
+    $ ./install SYSTEMD   #for install as systemd service
 
 ## Dependencies
  - Python 2
